@@ -1,0 +1,21 @@
+{
+    "name": "Pokemon Takeover",
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "description": "Class chrome extension testing",
+    "author": "Jordan Reeves",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Pokemon Takeover"
+    }
+}
